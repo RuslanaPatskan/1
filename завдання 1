@@ -1,0 +1,19 @@
+def calculate_X():
+    a = float(input("Введіть значення a: "))
+    b = float(input("Введіть значення b: "))
+
+    if a <= 0 or b <= 0:
+        print("Числа мають бути лише додатніми!")
+        return
+
+    if a > b:
+        X = a * b - 1
+    elif a == b:
+        X = 255
+    else:
+        X = (a - 5) / b
+
+    print("Значення X:", X)
+
+calculate_X()
+
