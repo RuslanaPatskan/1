@@ -1,0 +1,9 @@
+distance = 10 
+target_distance = 50  
+days = 1  
+
+while distance < target_distance:
+    distance *= 1.1  
+    days += 1  
+
+print(f"Спортсмен подолає {target_distance} км за {days} днів.") 
